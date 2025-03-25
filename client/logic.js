@@ -15,7 +15,7 @@ const sendMessage = async () => {
   chatbox.scrollTop = chatbox.scrollHeight; 
   
   try {
-    const response = await fetch("http://localhost:8000/chatbot", {
+    const response = await fetch("https://chatbot-xorr.onrender.com/chatbot", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
