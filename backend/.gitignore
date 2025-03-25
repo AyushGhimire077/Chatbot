@@ -1,0 +1,14 @@
+.env
+
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment (venv)
+venv/
+.env/
+
+# Logs & Debug files
+*.log
